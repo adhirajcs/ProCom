@@ -1,11 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# uv environment
 .venv/
+
+# Secrets and local environment
 .env
 .env.*
 !.env.example
-__pycache__/
-*.py[cod]
+
+# Testing
 .pytest_cache/
-.ruff_cache/
-.mypy_cache/
 .coverage
 htmlcov/
+
+# Linters and type checking
+.ruff_cache/
+.mypy_cache/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
